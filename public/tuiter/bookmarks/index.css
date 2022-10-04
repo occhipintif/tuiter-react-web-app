@@ -1,0 +1,19 @@
+.wd-font-size-bookmark { font-size: 20px; }
+.wd-font-size-at { font-size: 13px; }
+.wd-font-size-15 { font-size: 15px; }
+
+.wd-fg-color-red { color: red; }
+.wd-offset-sm { margin-left: 3px;}
+
+.wd-padding-top-12 { padding-top: 12px; }
+.wd-padding-all-12 { padding: 12px; }
+.wd-max-width { max-width: 506px; }
+
+.wd-avatar-offset {margin-left: 60px; }
+.wd-rounded-corners-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px; }
+
+
+.wd-border-1 { border-width: 1px; }
+.wd-width-504 {width: 504px; }

@@ -1,0 +1,22 @@
+.wd-leftpad { padding-left: 16px; }
+.wd-margin-left { margin-left: 16px; }
+.wd-margin-right { margin-right: 16px; }
+.wd-margin-top { margin-top: 12px; }
+
+.wd-fg-color-white { color: white; }
+.wd-fg-color-l-gray { color: rgb(110, 118, 125); }
+
+.wd-bg-color-black { background-color: black; }
+.wd-border-d-gray { border-color: rgb(47, 51, 54); }
+.wd-border-full { border-width: 2px; }
+.wd-border-solid { border-style: solid; }
+
+.wd-rounded-corners-all-around { border-radius: 50px; }
+.wd-rounded-corners-sm { border-radius: 15px; }
+
+.wd-padding-top { padding-top: 16px; }
+.wd-padding-bottom-sm { padding-bottom: 5px; }
+
+.wd-float-left { float: left; }
+.wd-float-right { float: right; }
+.wd-float-done { clear: both; }
