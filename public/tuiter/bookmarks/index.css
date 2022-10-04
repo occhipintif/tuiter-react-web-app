@@ -9,7 +9,8 @@
 .wd-padding-all-12 { padding: 12px; }
 .wd-max-width { max-width: 506px; }
 
-.wd-avatar-offset {margin-left: 60px; }
+.wd-avatar-offset {margin-left: 64px; }
+.wd-pos-nudge-up { position: relative; bottom: 25px; }
 .wd-rounded-corners-top {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px; }
