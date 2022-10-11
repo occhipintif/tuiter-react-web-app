@@ -7,15 +7,18 @@
           rel="stylesheet"/>
     <link href="../styles.css"
           rel="stylesheet"/>
+    <link href="../../vendors/bootstrap/bootstrap.min.css" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/85811c973d.js" crossorigin="anonymous"></script>
 </head>
-<body class="wd-bg-color-black">
+
+<!--<body class="wd-bg-color-black">
 
 <div class="wd-margin-left wd-leftpad wd-border-full wd-border-d-gray wd-border-solid">
 <input class="wd-float-left wd-fg-color-white wd-bg-color-d-gray wd-padding-input wd-rounded-corners-all-around"
        id="wd-text-fields-username"
        placeholder="Search Tuiter"/>
 <a href="explore-settings.html" class="wd-float-right wd-fg-color-blue wd-pos-nudge-down wd-margin-right">
-    <img src="../gear.png" width="16" height="16"></a>
+    <img src="../../images/gear.png" width="16" height="16"></a>
     <div class="wd-float-done"></div>
 
 <div>
@@ -59,7 +62,7 @@
     <div class="wd-float-left wd-fg-color-white wd-padding-top-sm wd-font-size-suggested">
         CNN's Lorem Ipsum: Lorem ipsum dolor</div>
     <img class="wd-float-right wd-margin-right wd-pos-nudge-up wd-rounded-corners-sm"
-         src="../teslabot.jpg"
+         src="../../images/teslabot.jpg"
          height="100px"
          width="100px"/>
     <div class="wd-float-done"></div>
@@ -71,7 +74,7 @@
     <div class="wd-float-left wd-fg-color-white wd-padding-top-sm wd-font-size-suggested">
         Heathcliff loves the meat tank</div>
     <img class="wd-float-right wd-margin-right wd-pos-nudge-up wd-rounded-corners-sm"
-         src="../heathcliff.jpg"
+         src="../../images/heathcliff.jpg"
          height="100px"
          width="100px"/>
     <div class="wd-float-done"></div>
@@ -83,7 +86,7 @@
     <div class="wd-float-left wd-fg-color-white wd-padding-top-sm wd-font-size-suggested">
         COVID-19: Lorem ipsum dolor</div>
     <img class="wd-float-right wd-margin-right wd-pos-nudge-up wd-rounded-corners-sm"
-         src="../teslabot.jpg"
+         src="../../images/teslabot.jpg"
          height="100px"
          width="100px"/>
     <div class="wd-float-done"></div>
@@ -95,13 +98,232 @@
     <div class="wd-float-left wd-fg-color-white wd-padding-top-sm wd-font-size-suggested">
         Thinking about getting a booster? Lorem ipsum dolor</div>
     <img class="wd-float-right wd-margin-right wd-pos-nudge-up wd-rounded-corners-sm"
-         src="../teslabot.jpg"
+         src="../../images/teslabot.jpg"
          height="100px"
          width="100px"/>
     <div class="wd-float-done"></div>
 </div>
-
 <br/>
+</body>-->
 
+
+<body>
+<div class="container pt-2 pb-2">
+
+    <div class="row">
+        <div class="col-2">
+            <ul class="list-group mb-2">
+                <li class="list-group-item"><i class="fab fa-twitter"></i></li>
+                <li class="list-group-item">
+                    <div class="row d-flex justify-content-center">
+                        <i class="col-1 fa fa-home d-flex justify-content-center align-items-center"></i>
+                        <div class="col-9 d-none d-lg-block">Home</div></div></li>
+                <li class="list-group-item">
+                    <div class="row d-flex justify-content-center">
+                        <i class="col-1 fa fa-hashtag d-flex justify-content-center align-items-center"></i>
+                        <div class="col-9 d-none d-lg-block">Explore</div></div></li>
+                <li class="list-group-item">
+                    <div class="row d-flex justify-content-center">
+                        <i class="col-1 fa fa-bell d-flex justify-content-center align-items-center"></i>
+                        <div class="col-9 d-none d-lg-block">Notifications</div></div></li>
+                <li class="list-group-item">
+                    <div class="row d-flex justify-content-center">
+                        <i class="col-1 fa fa-envelope d-flex justify-content-center align-items-center"></i>
+                        <div class="col-9 d-none d-lg-block">Messages</div></div></li>
+                <li class="list-group-item">
+                    <div class="row d-flex justify-content-center">
+                        <i class="col-1 fa fa-bookmark d-flex justify-content-center align-items-center"></i>
+                        <div class="col-9 d-none d-lg-block">Bookmarks</div></div></li>
+                <li class="list-group-item">
+                    <div class="row d-flex justify-content-center">
+                        <i class="col-1 fa fa-list d-flex justify-content-center align-items-center"></i>
+                        <div class="col-9 d-none d-lg-block">Lists</div></div></li>
+                <li class="list-group-item">
+                    <div class="row d-flex justify-content-center">
+                        <i class="col-1 fa fa-user d-flex justify-content-center align-items-center"></i>
+                        <div class="col-9 d-none d-lg-block">Profile</div></div></li>
+                <li class="list-group-item">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <span class="col-1 fa-stack d-flex justify-content-center align-items-center">
+                        <i class="fa fa-circle fa-stack-1x"></i>
+                        <i class="fa-solid fa-ellipsis fa-stack-1x fa-inverse"></i>
+                    </span>
+                        <div class="col-9 d-none d-lg-block">More</div></div></li>
+            </ul>
+
+            <button class="btn btn-primary rounded-pill" style="width: 100%;">
+                Tweet
+            </button>
+        </div>
+
+
+
+        <div class="col">
+            <div class="row">
+                <div class="col-9">
+                    <div class="row">
+                        <span class="col-1 d-flex flex-nowrap position-absolute"><i class="fa fa-search"></i></span>
+                        <input type="text" class="d-flex flex-nowrap form-control rounded-pill col-9" placeholder="        Search Twitter">
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-end align-items-center"><i class="fa fa-gear fa-2x" style="color: rgb(29,161,242)"></i></div>
+            </div>
+
+            <ul class="nav nav-tabs m-2">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">For You</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-none d-md-block" href="#">Entertainment</a>
+                </li>
+            </ul>
+
+            <div class="card" style="width: 100%;">
+                <img src="../../images/spacex.jpg"
+                     class="card-img-top" alt="...">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <p class="fw-bold col"><span class="text-muted fw-normal">Web Development</span>
+                                <br>React JS <i class="fa-solid fa-circle-check"></i><span class="text-muted fw-normal"> - 2h</span>
+                                <br>React.js is a component based front end library that makes it very easy to
+                                build Single Page Applications or SPAs</p>
+                            <div class="col d-flex justify-content-end align-items-center">
+                                <img src="../../images/react.png"
+                                     class="rounded"
+                                     style="width:110px;"></div>
+                        </div></li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <p class="fw-bold col">JavaScript <i class="fa-solid fa-circle-check"></i><span class="text-muted fw-normal"> - 2h</span>
+                                <br>JavaScript is a programming language that can run on browsers as well as desktops
+                            <br><span class="text-muted fw-normal">Web Development</span></p>
+                            <div class="col d-flex justify-content-end align-items-center">
+                                <img src="../../images/JavaScript-logo.png"
+                                     class="rounded"
+                                     style="width:110px;"></div>
+                        </div></li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <p class="fw-bold col"><span class="text-muted fw-normal">Web Development</span>
+                                <br>jQuery
+                                <br><span class="text-muted fw-normal">123k Tweets</span>
+                            <div class="col d-flex justify-content-end align-items-center">
+                                <img src="../../images/jquery-logo-vertical_large_square.png"
+                                     class="rounded"
+                                     style="width:110px;"></div>
+                        </div></li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <p class="fw-bold col"><span class="text-muted fw-normal">Web Development</span>
+                                <br>React JS <i class="fa-solid fa-circle-check"></i><span class="text-muted fw-normal"> - 2h
+                                <br>123k Tweets</span>
+                            <div class="col d-flex justify-content-end align-items-center">
+                                <img src="../../images/nodejs.png"
+                                     class="rounded"
+                                     style="width:110px;"></div>
+                        </div></li>
+                </ul>
+            </div>
+
+        </div>
+
+
+
+        <div class="col-3 d-none d-lg-block">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <span class="fw-bold">Who to follow</span></li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-2 d-flex justify-content-start align-items-center">
+                            <img src="../../images/java.png"
+                                 class="rounded-circle"
+                                 style="width:50px;"></div>
+                        <span class="col-5 fw-bold d-flex justify-content-start text-nowrap flex-nowrap"><p>Java
+                            <i class="fa-solid fa-circle-check"></i>
+                            <br><span class="fw-normal">@Java</span></p></span>
+                        <div class="col d-flex justify-content-end align-items-center flex-nowrap">
+                            <button class="btn btn-primary rounded-pill d-flex justify-content-start">
+                                Follow
+                            </button>
+                        </div>
+                    </div></li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-2 d-flex justify-content-start align-items-center">
+                        <img src="../../images/$RZ1FCS3.png"
+                             class="rounded-circle"
+                             style="width:50px;"></div>
+                        <span class="col-5 fw-bold d-flex justify-content-start text-nowrap flex-nowrap"><p>Relativity Space
+                            <i class="fa-solid fa-circle-check"></i>
+                            <br><span class="fw-normal">@relativityspace</span></p></span>
+                        <div class="col d-flex justify-content-end align-items-center flex-nowrap">
+                            <button class="btn btn-primary rounded-pill">
+                                Follow
+                            </button>
+                        </div>
+                    </div></li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-2 d-flex justify-content-start align-items-center">
+                            <img src="../../images/galactic.png"
+                                 class="rounded-circle"
+                                 style="width:50px;"></div>
+                        <span class="col-5 fw-bold d-flex justify-content-start text-nowrap flex-nowrap"><p>Virgin Galactic
+                            <i class="fa-solid fa-circle-check"></i>
+                            <br><span class="fw-normal">@virgingalactic</span></p></span>
+                        <div class="col d-flex justify-content-end align-items-center flex-nowrap">
+                            <button class="btn btn-primary rounded-pill d-flex justify-content-start">
+                                Follow
+                            </button>
+                        </div>
+                    </div></li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-2 d-flex justify-content-start align-items-center">
+                            <img src="../../images/nasa.jpg"
+                                 class="rounded"
+                                 style="width:50px;"></div>
+                        <span class="col-5 fw-bold d-flex justify-content-start text-nowrap flex-nowrap"><p>NASA
+                            <i class="fa-solid fa-circle-check"></i>
+                            <br><span class="fw-normal">@NASA</span></p></span>
+                        <div class="col d-flex justify-content-end align-items-center flex-nowrap">
+                            <button class="btn btn-primary rounded-pill d-flex justify-content-start">
+                                Follow
+                            </button>
+                        </div>
+                    </div></li>
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col-2 d-flex justify-content-start align-items-center">
+                            <img src="../../images/tesla.png"
+                                 class="rounded"
+                                 style="width:50px;"></div>
+                        <span class="col-5 fw-bold d-flex justify-content-start text-nowrap flex-nowrap"><p>Tesla
+                            <i class="fa-solid fa-circle-check"></i>
+                            <br><span class="fw-normal">@Tesla</span></p></span>
+                        <div class="col d-flex justify-content-end align-items-center flex-nowrap">
+                            <button class="btn btn-primary rounded-pill d-flex justify-content-start">
+                                Follow
+                            </button>
+                        </div>
+                    </div></li>
+            </ul>
+        </div></div>
+
+</div>
 </body>
+
+
+
 </html>
